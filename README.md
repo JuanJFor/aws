@@ -1,1 +1,21 @@
-# aws
+{
+  "default": "Ejemplo de mensaje alternativo",
+  "email": "Ejemplo de mensaje para puntos de enlace de correo electrónico",
+  "sqs": "Ejemplo de mensaje para puntos de enlace de Amazon SQS",
+  "lambda": "Ejemplo de mensaje para puntos de enlace de AWS Lambda",
+  "http": "Ejemplo de mensaje para puntos de enlace HTTP",
+  "https": "Ejemplo de mensaje para puntos de enlace HTTPS",
+  "sms": "Ejemplo de mensaje para puntos de enlace de SMS",
+  "firehose": "Mensaje de muestra para puntos de enlace de Amazon Kinesis Data Firehose",
+  "APNS": "{\"aps\":{\"alert\": \"Sample message for iOS endpoints\"} }",
+  "APNS_SANDBOX": "{\"aps\":{\"alert\":\"Sample message for iOS development endpoints\"}}",
+  "APNS_VOIP": "{\"aps\":{\"alert\":\"Sample message for Apple VoIP endpoints\"}}",
+  "APNS_VOIP_SANDBOX": "{\"aps\":{\"alert\": \"Sample message for Apple VoIP development endpoints\"} }",
+  "MACOS": "{\"aps\":{\"alert\":\"Sample message for MacOS endpoints\"}}",
+  "MACOS_SANDBOX": "{\"aps\":{\"alert\": \"Sample message for MacOS development endpoints\"} }",
+  "GCM": "{\"notification\": { \"body\": \"Sample message for Android endpoints\", \"title\":\"Hello world\",\"sound\":\"default\" }, \"priority\": \"high\" }",
+  "ADM": "{\"data\": { \"message\": \"Sample message for FireOS endpoints\" } }",
+  "BAIDU": "{\"title\":\"Sample message title\",\"description\":\"Sample message for Baidu endpoints\"}",
+  "MPNS": "<?xml version=\"1.0\" encoding=\"utf-8\"?><wp:Notification xmlns:wp=\"WPNotification\"><wp:Tile><wp:Count>INGRESAR RECUENTO</wp:Count><wp:Title>Ejemplo de mensaje para puntos de enlace de Windows Phone 7 y versiones posteriores</wp:Title></wp:Tile></wp:Notification>",
+  "WNS": "<badge version=\"1\" value=\"42\"/>"
+}
