@@ -1,1 +1,6 @@
-com\mycompany\aws\RegistrationExample.class
+com\mycompany\aws\AmazonSNSClientWrapper$1.class
+com\mycompany\aws\SampleMessageGenerator.class
+com\mycompany\aws\AmazonSNSClientWrapper.class
+com\mycompany\aws\SampleMessageGenerator$Platform.class
+com\mycompany\aws\SNSMobilePush.class
+com\mycompany\aws\StringUtils.class
